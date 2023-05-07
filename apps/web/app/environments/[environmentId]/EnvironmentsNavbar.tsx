@@ -291,7 +291,11 @@ export default function EnvironmentsNavbar({ environmentId, session }: Environme
                     session?.user?.name
                   )}
                 </DropdownMenuLabel>
+
+                <DropdownMenuSeparator />
+
                 {/* Product Switch */}
+                
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger>
                     <div>
